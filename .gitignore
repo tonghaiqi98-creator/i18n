@@ -1,0 +1,28 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Private source materials and local working notes.
+_private/
+private/
+local/
+scratch/
+*.local.*
+
+# Internal work archives that should never be part of the public portfolio.
+00-baseline/
+01-diagnosis/
+02-architecture/
+03-model-selection/
+04-eval-system/
+05-prompt-assets/
+06-data-flywheel/
+07-resume-drafts/
+08-interview-prep/
+*-prep/
+CLAUDE.md
+PROGRESS.md

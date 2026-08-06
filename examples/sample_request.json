@@ -1,0 +1,8 @@
+{
+  "device": "mobile_app",
+  "module": "camera_connection",
+  "key": "",
+  "source_text": "Connect to camera Wi-Fi {{WifiName}}, then return to the app.",
+  "char_limit": 96,
+  "target_languages": ["en-US", "de-DE", "fr-FR", "ja-JP"]
+}
