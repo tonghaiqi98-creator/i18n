@@ -4,11 +4,7 @@
 
 ## 项目展示
 
-▶ **[查看完整项目作品集页面](https://tonghaiqi98-creator.github.io/i18n/)** （自包含单文件 HTML，含业务诊断、架构设计、评测体系、Prompt 飞轮、模型选型矩阵等完整叙事）
-
-> 启用 GitHub Pages：Settings → Pages → Source: `main` 分支，根目录 → Save。
-
-本地查看：在浏览器中打开 `index.html`。
+▶ **[查看完整项目作品集页面](https://tonghaiqi98-creator.github.io/i18n/)**
 
 ## 项目概览
 
