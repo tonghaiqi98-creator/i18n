@@ -60,6 +60,7 @@
 
   /* ===== Cards ===== */
   .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+  .card-grid.col2 { grid-template-columns: repeat(2, 1fr); }
   .card {
     background: #fff; border-radius: 12px; padding: 28px;
     border: 1px solid #e2e8f0; transition: box-shadow 0.2s;
@@ -183,6 +184,7 @@
     .hero h1 { font-size: 28px; }
     .hero .meta { gap: 16px; }
     nav .links { gap: 10px; }
+    .card-grid.col2 { grid-template-columns: 1fr; }
   }
 </style>
 </head>
@@ -229,7 +231,7 @@
       <p class="desc">基于真实业务数据与跨角色访谈，量化瓶颈分布、还原端到端时长、评估 ROI 可行性。</p>
     </div>
 
-    <div class="card-grid">
+    <div class="card-grid col2">
       <div class="card">
         <div class="icon">🏭</div>
         <h3>业务复杂度</h3>
@@ -335,7 +337,7 @@
       <p class="desc">Golden Set 分层抽样构建、LLM-as-a-Judge 三维度评分、Stress Test 验证 Judge 区分能力。评测体系自身需经对标验证。</p>
     </div>
 
-    <div class="card-grid">
+    <div class="card-grid col2">
       <div class="card">
         <div class="icon">🎯</div>
         <h3>Golden Set v0</h3>
